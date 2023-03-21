@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>	University Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e8e9b9f917.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="image/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+   				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Course.html">COURSE</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+					
+				</ul> 
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	
+		<h1>About us</h1>
+
+	</section>
+
+	
+	<!------------about us content---------------->
+
+	<section class="about-us">
+		<div class="row">
+			<div class="about-col">
+				<h1>About Texas</h1>
+				<p>exas Int'l College, which has been running excellently under Texas Int'l Education Network (2010), is a dynamic educational institution with academic programs (+2 Level) in Science, Management, Law and Humanities with outstanding Board Results of more than 94%. Texas has been founded with a set of academicians and entrepreneurs to meet the rising demand for qualified and skilled manpower in the field of Science and Technology, Management along with Hotel Management and Humanities. Since its very inception, Texas remains as an invitation to learning by both theory and practice.</p>
+
+ 				<p>Texas Int'l College has also been running BSc (CSIT), BCA, BBM, BBS, BA along with BSW programs and MBS (TU affiliate) to meet the demands in the field of Management, Information Technology and Social Sciences. Moreover, as a different sister unit of Texas, Texas College of Management and IT, Siphal, Chabahil is successfully running BBA and MBA (with 100 % success results) and is also running BIT and BCS (Cyber-Security and Network Technology) along with the core values of professional courses, mandatory internship in IT industry and Job Placement. There are professors, readers, lecturers and scholars in their respective fields who are attending Masters level, bachelor level and also for XI & XII with their up-dated knowledge.</p>
+			</div>
+			<div class="about-col">
+				<img src="image/about1.jpg" class="about1">
+				
+
+			</div>
+			
+		</div>
+			
+		</div>
+		
+	</section>
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+	
+
+	<!-----------footer---------->
+
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Texas International College | Developed by Ujjwal budha(1st Sem)</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+			
+
+		</div>
+
+		
+
+	</section>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+	var navLinks = document.getElementById("navLinks")
+
+	function showMenu(){
+		navLinks.style.right = "0px";
+
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+
+	}
+	
+
+
+</script>
+</body>
+</html>
