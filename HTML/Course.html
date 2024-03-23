@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>	University Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e8e9b9f917.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="image/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+   				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Course.html">COURSE</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+					
+				</ul> 
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	
+		<h1>Our Courses</h1>
+
+	</section>
+
+<!-------Course------>
+
+	<section class="course">
+		<h1>Course We Offer</h1>
+		<p>BSC.CSIT,BCA,BBM</p>
+		
+		<div class="row">
+			<div class="course-col">
+				<h3>BSC.CSIT</h3>
+				<p>Bachelors of Science in Computer Science and Information Technology (B.Sc. CSIT) is a four year course affiliated to Tribhuvan University designed to provide the students with all sorts of knowledge in the field of Information Technology and Computing.</p>
+			
+			</div>
+			<div class="course-col">
+				<h3>BCA</h3>
+				<p>Texas has launched BCA affiliated to Tribhuvan University. It is the 4 years program that runs on semester-system under the faculties of Humanities and Social Sciences.</p>
+			
+			</div>
+			<div class="course-col">
+				<h3>BBM</h3>
+				<p>Bachelor of Business Management (BBM) is a course of 4 years, 8 semester  ofTribhuvan University, faculty of management. Each semester constitute of 16 weeks of intensive study. The program covers 120 credit hours.</p>
+			
+			</div>
+			
+		</div>
+
+	</section>
+	
+
+
+
+	
+<!-----------facility-------------->
+	<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>Texas college organize various programs that not only look for acadamics but also a way to ensure students physical being.</p>
+		
+		<div class="row">
+			<div class="facilities-col">
+				<img src="image/library.png">
+				<h3>Peaceful Library</h3>
+				<p>We have a world class library in texus, having suitable environment for learners</p>
+				
+			</div>
+			
+			<div class="facilities-col">
+				<img src="image/basketball.png">
+				<h3>Basketball Court</h3>
+				<p>We have a well maintained basketball court at texas</p>
+				
+			</div>
+			
+			<div class="facilities-col">
+				<img src="image/cafeteria.png">
+				<h3>Clean Canteen</h3>
+				<p>Canteen at texas have the proper hygine and serves various Dishes</p>
+
+				
+			</div>
+		</div>
+	</section>
+
+	
+
+
+
+
+
+
+	
+
+	<!-----------footer---------->
+
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Texas International College | Developed by Ujjwal budha(1st Sem)</p>
+		<div class="icons">
+			<a href="https://www.facebook.com/DarkShadow.1211/"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/UjjwalBudha2"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/ujjwal_budha/"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/ujwal-budha-48b532214/"><i class="fa fa-linkedin"></i></a>
+			
+
+		</div>
+
+		
+
+	</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+	var navLinks = document.getElementById("navLinks")
+
+	function showMenu(){
+		navLinks.style.right = "0px";
+
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+
+	}
+	
+
+
+</script>
+</body>
+</html>
